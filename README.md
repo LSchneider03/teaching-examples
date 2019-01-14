@@ -1,1 +1,1 @@
-# teaching-examples
+Teaching examples
