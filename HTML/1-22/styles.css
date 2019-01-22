@@ -61,18 +61,18 @@ hr {
 }
 
 /* Other pixel examples */
-.other-pixel-examples p{
+.other-pixel-examples p {
   margin: 0;
   padding: 0;
 }
 
-.hundred-percent{
+.hundred-percent {
   width: 100%;
 }
-.twelve-inches{
+.twelve-inches {
   width: 6in;
 }
-.three-rem{
+.three-rem {
   width: 3rem;
 }
 
