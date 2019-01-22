@@ -60,6 +60,7 @@ hr {
   width: 64px;
 }
 
+/* Other pixel examples */
 .other-pixel-examples p{
   margin: 0;
   padding: 0;
@@ -73,4 +74,9 @@ hr {
 }
 .three-rem{
   width: 3rem;
+}
+
+/* Footer */
+.footer {
+  color: #ff530d;
 }
