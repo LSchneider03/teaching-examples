@@ -1,0 +1,76 @@
+/* Global Styles */
+html,
+body {
+  background: #efefef;
+  color: #2b3a42;
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+hr {
+  color: #ff530d;
+  width: 80%;
+}
+
+/* Header */
+.header {
+  background: rgb(43, 58, 66);
+  background: linear-gradient(
+    90deg,
+    rgba(43, 58, 66, 1) 27%,
+    rgba(63, 87, 101, 1) 71%
+  );
+  color: #bdd4de;
+  padding: 16px;
+  text-transform: uppercase;
+  padding: 5rem;
+}
+
+/* Content */
+.content {
+  margin: 32px;
+}
+
+.first-letter {
+  font-size: 24px;
+}
+
+/* Pixel examples */
+.pixel-examples p {
+  margin: 0;
+  padding: 0;
+}
+
+.sixteen-pixels {
+  width: 16px;
+}
+
+.thirty-two-pixels {
+  width: 32px;
+}
+
+.sixty-four-pixels {
+  width: 64px;
+}
+
+.other-pixel-examples p{
+  margin: 0;
+  padding: 0;
+}
+
+.hundred-percent{
+  width: 100%;
+}
+.twelve-inches{
+  width: 6in;
+}
+.three-rem{
+  width: 3rem;
+}
