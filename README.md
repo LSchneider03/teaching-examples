@@ -1,1 +1,1 @@
-Teaching examples
+>Teaching examples, organized by date. 
