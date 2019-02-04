@@ -1,0 +1,56 @@
+body, html {
+ 
+background: White; 
+margin: 0;
+  
+padding: 0;
+}
+
+
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+.header {
+	background: PowderBlue;
+	padding: 1rem
+}
+
+.header h1 {
+	padding: 1rem;
+	color: White;
+	background: Coral;
+	width: 135px;
+	border-radius: 6px;
+}
+
+.header a {
+	font-size: 20px;
+	text-decoration: none;
+	color: white;
+	padding-right: 1rem;
+}
+
+.content {
+	text-align: center;
+}
+
+.content img {
+	border-radius: 12px;
+	width: 30%;
+}
+
+.footer {
+	padding-top: 3rem;
+	text-align: center;
+}
+
+.footer a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: Coral;
+}
