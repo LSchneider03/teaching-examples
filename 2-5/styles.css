@@ -1,56 +1,53 @@
-body, html {
- 
-background: White; 
-margin: 0;
-  
-padding: 0;
+body,
+html {
+  background: White;
+  margin: 0;
+	font-family: 'Raleway', sans-serif;
+  padding: 0;
 }
-
-
 
 h1 {
   margin: 0;
   padding: 0;
 }
 
-
-
 .header {
-	background: PowderBlue;
-	padding: 1rem
+  background: PowderBlue;
+  padding: 1rem;
 }
 
 .header h1 {
-	padding: 1rem;
-	color: White;
-	background: Coral;
-	width: 135px;
-	border-radius: 6px;
+	font-family: 'Major Mono Display', monospace;
+  padding: 1rem;
+  color: White;
+  background: Coral;
+  width: 176px;
+  border-radius: 6px;
 }
 
 .header a {
-	font-size: 20px;
-	text-decoration: none;
-	color: white;
-	padding-right: 1rem;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  padding: 0 0.5rem;
 }
 
 .content {
-	text-align: center;
+  text-align: center;
 }
 
 .content img {
-	border-radius: 12px;
-	width: 30%;
+  border-radius: 12px;
+  width: 40%;
 }
 
 .footer {
-	padding-top: 3rem;
-	text-align: center;
+  padding-top: 3rem;
+  text-align: center;
 }
 
 .footer a {
-	text-decoration: none;
-	text-transform: uppercase;
-	color: Coral;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: Coral;
 }
