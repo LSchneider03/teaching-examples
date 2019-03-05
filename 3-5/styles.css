@@ -1,0 +1,153 @@
+/* Global Styles */
+body, html {
+  background: #ECF0F1;
+  color: #2C3E50;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p, a, ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  background: #3C3E50;
+  padding: 1rem;
+  box-shadow: 6px 6px 6px grey;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ECF0F1;
+}
+.header a:hover {
+  color: #E74C3C;
+}
+.header a:active {
+  color: #E74C3C;
+}
+
+.header ul {
+  padding: 0.6rem;
+  margin-left: auto;
+  display: flex;
+}
+
+.header li {
+  list-style: none;
+  padding-right: 2rem;
+}
+
+/* Content Styles */
+.home-content {
+  display: flex;
+  padding: 1rem;
+  margin: 2rem 0 ;
+}
+
+.home-content p {
+  padding: 1rem;
+}
+
+.card {
+  border-radius: 6px 6px 0 0;
+  border: 2px solid #3498DB;
+  box-shadow: 6px 6px 6px grey;
+  color: #E9F1DF;
+}
+
+.card h2 {
+  padding: 1rem;
+  background: #3498DB;
+}
+
+.card p {
+  color: #2C3E50;
+}
+
+.form-content {
+  text-align: center;
+  margin: 2rem 10rem;
+  border-radius: 6px 6px 0 0;
+  border: 2px solid #3498DB;
+  box-shadow: 6px 6px 6px grey;
+}
+
+.form-content h2 {
+  padding: 1rem;
+  background: #3498DB;
+  color: #E9F1DF;
+}
+
+.form-content input {
+  margin: 1rem;
+}
+
+.form-content input[type="submit"] {
+  border: none;
+  border-radius: 6px;
+  background: #E74C3C;
+  color: #E9F1DF;
+  padding: 1rem;
+}
+
+.form-content input[type="submit"]:hover {
+  cursor: pointer;
+  opacity: .7;
+}
+
+.about-content {
+  margin: 1.5rem 8rem;
+}
+
+.about-content p {
+  padding: 1rem;
+}
+.about-content a:visited {
+  color: #E74C3C;
+}
+
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+}
+.footer a {
+  color: #E74C3C;
+  font-size: 2rem;
+}
+.footer a:hover {
+  opacity: .7;
+}
+
+@media screen and (max-width: 750px) {
+  /* Mobile Header */
+  .header ul {
+    display: inline;
+  }
+
+  /* Mobile Content */
+  .home-content {
+    display: inline;
+  }
+
+  .card {
+    margin: 0 1rem;
+  }
+
+  .form-content {
+    margin: 1rem;
+  }
+
+  .about-content {
+    margin: 1rem;
+  }
+}
