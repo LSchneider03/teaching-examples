@@ -140,6 +140,15 @@ a {
   }
 
   /* Mobile Content */
+  .home-content {
+    display: inline;
+  }
+
+  .card {
+    margin: 1.25rem;
+    margin-bottom: 0;
+  }
+
   .form-content {
     margin: 2rem 2rem;
   }
