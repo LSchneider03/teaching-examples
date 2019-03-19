@@ -96,6 +96,21 @@ a {
   padding: 2rem;
 }
 
+.test-content button {
+  border-radius: 8px;
+  border: none;
+  background: #3498DB;
+  color: #E9F1DF;
+  cursor: pointer;
+  margin: 1rem;
+  padding: 0.75rem;
+}
+.test-content button:hover {
+  background: #E74C3C;
+}
+.test-content button:active {
+  background: #E74C3C;
+}
 
 /* Footer Styles */
 .footer {
@@ -104,4 +119,38 @@ a {
 .footer a {
   color: #E74C3C;
   font-size: 2rem;
+}
+.footer a:hover {
+  color: #3498DB;
+}
+.footer a:active {
+  color: #3498DB;
+}
+
+@media screen and (max-width: 750px) {
+  /* Mobile Header */
+  .header ul {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .header li {
+    list-style: none;
+    padding-right: 1.25rem;
+  }
+
+  /* Mobile Content */
+  .form-content {
+    margin: 2rem 2rem;
+  }
+  
+  .form-content h2 {
+    padding: 1rem;
+    background: #3498DB;
+    color: #E9F1DF;
+  }
+  
+  .form-content input {
+    margin: 1rem;
+  }
 }
