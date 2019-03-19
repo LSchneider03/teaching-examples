@@ -75,6 +75,14 @@
       console.log(a * c);
       console.log(ourParagraphElement);
 
+      // We can create our own objects and use them in a similar way we've used other objects so far.
+      const square = {
+        sides: 4,
+        side_length: 6,
+        color: "blue"
+      };
+      console.log("My square is " + square.color + " and it has an area of " + square.side_length*square.side_length);
+
       // In JavaScript you can also create functions, which can be used to trigger responses to certain events.
       // Such as this function which will change what our example-text says whenever the button is pressed.
       function changeText() {
