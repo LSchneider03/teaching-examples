@@ -26,7 +26,7 @@
       <p></p>
       <input type="text" placeholder="Enter message..." />
       <p></p>
-      <input type="submit" value="Submit" >
+      <input type="submit" value="Submit" onclick=submitMessage()>
     </form>
   </div>
   <div class="footer">
@@ -34,5 +34,11 @@
       <a href="https://facebook.com" class="fa fa-facebook"></a>
       <a href="https://github.com" class="fa fa-github"></a>
     </div>
+
+    <script>
+      function submitMessage() {
+        window.alert("Thank you for your message!")
+      }
+    </script>
 </body>
 </html>
