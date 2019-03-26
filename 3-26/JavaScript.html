@@ -70,14 +70,14 @@
 
     // Another very useful tool that programming languages offer is if statements.
     // This allows the programmer to check for certain conditions and give according outputs.
-    function isNumberNegative(number) {
+    function checkIfNegative(number) {
       if (number < 0) {
         console.log(number + " is negative.");
       }
     }
 
     // We can extend this function to include an if-else statement to respond whether the number is negative or not.
-    function checkIfNegative(number) {
+    function isNumberNegative(number) {
       if (number < 0) {
         console.log(number + " is negative.");
       }
@@ -86,11 +86,10 @@
       }
     }
 
-    isNumberNegative(-25);
-    isNumberNegative(25);
     checkIfNegative(-50);
     checkIfNegative(50);
-
+    isNumberNegative(-25);
+    isNumberNegative(25);
 
     // If-else statement within a function to change HTML after clicking the button on page.
     let boolean = false;
