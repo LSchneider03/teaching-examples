@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Home</title>
+</head>
+
+<body>
+  <div class="header">
+    <a href="./index.html">
+      <h1>Website</h1>
+    </a>
+    <ul>
+      <li><a href="./index.html">Home</a></li>
+      <li><a href="./contact.html">Contact</a></li>
+      <li><a href="./JavaScript.html">Javascript</a></li>
+    </ul>
+  </div>
+  <div class="test-content" id="test-content">
+    <h2 id="example-text">HTML</h2>
+    <button id="js-button" onclick=changeText()>Click</button>
+  </div>
+  <div class="footer">
+    <a href="https://youtube.com" class="fa fa-youtube"></a>
+    <a href="https://facebook.com" class="fa fa-facebook"></a>
+    <a href="https://github.com" class="fa fa-github"></a>
+  </div>
+
+  <script>
+
+    // A function that doesn't take any arguments has only a empty parentheses after the function name.
+    // When you call the function it will execute what is inside the function block.
+    function simpleFunction() {
+      console.log("This function only prints this sentence to the console. Simple.");
+    }
+    simpleFunction();
+
+    // You can also pass arguments to functions to get any possible outcomes.
+    // Consider these functions below that will take two numbers as arguments, then perform arthimetic with them.
+    // Notice the "return" keyword in these functions, this will return the output of the arthimetic performed so you can use that value over and over.
+    function add(number1, number2) {
+      return number1 + number2;
+    }
+
+    function subtract(number1, number2) {
+      return number1 - number2;
+    }
+
+    function multiply(number1, number2) {
+      return number1 * number2;
+    }
+
+    function divide(number1, number2) {
+      return number1 / number2;
+    }
+
+    console.log("10 + 10 is " + add(10, 10));
+    console.log("10 - 200 is " + subtract(10, 200));
+    console.log("1024 * 1024 is " + multiply(1024, 1024));
+    console.log("225 divided by 15 is " + divide(225, 15));
+
+    const bigNumber = multiply(25252525, 25252525);
+    console.log(bigNumber);
+
+
+    // Another very useful tool that programming languages offer is if statements.
+    // This allows the programmer to check for certain conditions and give according outputs.
+    function isNumberNegative(number) {
+      if (number < 0) {
+        console.log(number + " is negative.");
+      }
+    }
+
+    // We can extend this function to include an if-else statement to respond whether the number is negative or not.
+    function checkIfNegative(number) {
+      if (number < 0) {
+        console.log(number + " is negative.");
+      }
+      else {
+        console.log(number + " is positive.");
+      }
+    }
+
+    isNumberNegative(-25);
+    isNumberNegative(25);
+    checkIfNegative(-50);
+    checkIfNegative(50);
+
+
+    // If-else statement within a function to change HTML after clicking the button on page.
+    let boolean = false;
+    function changeText() {
+      if (boolean === false) {
+        document.getElementById("example-text").innerHTML = "False";
+        boolean = true;
+      }
+      else {
+        document.getElementById("example-text").innerHTML = "True";
+        boolean = false;
+      }
+    }
+
+
+  </script>
+
+</body>
+
+</html>

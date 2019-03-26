@@ -1,0 +1,165 @@
+/* Global Styles */
+body, html {
+  background: #ECF0F1;
+  color: #2C3E50;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, p, a, ul {
+  margin: 0;
+  padding: 0;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Header Styles */
+.header {
+  display: flex;
+  background: #3C3E50;
+  padding: 1rem;
+  box-shadow: 6px 6px 6px grey;
+}
+
+.header a {
+  text-decoration: none;
+  color: #ECF0F1;
+}
+.header a:active {
+  color: #E74C3C;
+}
+.header a:hover {
+  color: #E74C3C;
+}
+
+.header ul {
+  padding: 0.6rem;
+  margin-left: auto;
+  display: flex;
+}
+
+.header li {
+  list-style: none;
+  padding-right: 2rem;
+}
+
+/* Content Styles */
+.home-content {
+  display: flex;
+  padding: 1rem;
+  margin: 2rem 0 ;
+}
+
+.home-content p {
+  padding: 1rem;
+}
+
+.card {
+  border-radius: 6px 6px 0 0;
+  border: 2px solid #3498DB;
+  box-shadow: 6px 6px 6px grey;
+  color: #E9F1DF;
+}
+
+.card h2 {
+  padding: 1rem;
+  background: #3498DB;
+}
+
+.card p {
+  color: #2C3E50;
+}
+
+.form-content {
+  text-align: center;
+  margin: 2rem 10rem;
+  border-radius: 6px 6px 0 0;
+  border: 2px solid #3498DB;
+  box-shadow: 6px 6px 6px grey;
+}
+
+.form-content h2 {
+  padding: 1rem;
+  background: #3498DB;
+  color: #E9F1DF;
+}
+
+.form-content input {
+  margin: 1rem;
+}
+
+.test-content {
+  text-align: center;
+  padding: 2rem;
+}
+
+.test-content button {
+  border-radius: 8px;
+  border: none;
+  background: #3498DB;
+  color: #E9F1DF;
+  cursor: pointer;
+  margin: 1rem;
+  padding: 0.75rem;
+}
+.test-content button:hover {
+  background: #E74C3C;
+}
+.test-content button:active {
+  background: #E74C3C;
+}
+
+/* Footer Styles */
+.footer {
+  text-align: center;
+}
+.footer a {
+  color: #E74C3C;
+  font-size: 2rem;
+}
+.footer a:hover {
+  color: #3498DB;
+}
+.footer a:active {
+  color: #3498DB;
+}
+
+@media screen and (max-width: 750px) {
+  /* Mobile Header */
+  .header ul {
+    margin-left: auto;
+    display: flex;
+  }
+  
+  .header li {
+    list-style: none;
+    padding-right: 1.25rem;
+  }
+
+  /* Mobile Content */
+  .home-content {
+    display: inline;
+  }
+
+  .card {
+    margin: 1.25rem;
+    margin-bottom: 0;
+  }
+
+  .form-content {
+    margin: 2rem 2rem;
+  }
+  
+  .form-content h2 {
+    padding: 1rem;
+    background: #3498DB;
+    color: #E9F1DF;
+  }
+  
+  .form-content input {
+    margin: 1rem;
+  }
+}
