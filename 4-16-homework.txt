@@ -14,7 +14,7 @@ Your name:
 
 
 
-4. How do you select an HTML element with the ID of "example-text" within JavaScript? (Hint: remember the document object)
+4. How do you select an HTML element with the ID of "example-text" within JavaScript and then assign it to a variable named SelectedHTML? (Hint: remember the document object)
 
 
 
